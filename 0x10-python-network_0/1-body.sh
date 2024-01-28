@@ -1,3 +1,3 @@
-#!/bin/bash 
-# Takes in a URL sends a GET request and displayes the bosy of the respose
+#!/bin/bash
+# sends a GET request to the URL
 curl -sL "$1"
